@@ -498,7 +498,7 @@ MAN_STATUS = {"pending": "⏳ Kutilmoqda", "done": "✅ Bajarildi", "canceled": 
 # ---------- Raqam olish: coresmm.uz API (avtomatik) ----------
 CORE_URL = os.getenv("CORE_API_URL", "https://coresmm.uz/api/v1").rstrip("/")
 CORE_KEY = os.getenv("CORE_API_KEY", "")
-CORE_LIVE = os.getenv("CORE_LIVE", "0") == "1"           # 1 = haqiqiy raqam olinadi (pul ketadi!)
+CORE_LIVE = os.getenv("CORE_LIVE", "1") == "1"           # 1 = haqiqiy raqam olinadi (pul ketadi!)
 NUM_MARGIN = float(os.getenv("NUM_MARGIN_PERCENT", "20"))  # raqamdan foydangiz, %
 NUM_PAGE = 10
 
